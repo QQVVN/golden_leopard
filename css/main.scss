@@ -1,4 +1,4 @@
-@import '_reset_css.scss';
+@import "_reset_css.scss";
 
 @mixin clearfix {
     &:after,
@@ -12,3 +12,182 @@
     *zoom: 1;
 }
 
+html {
+    font-family: Microsoft JhengHei;
+    background: #07070e;
+    min-width: 1000px;
+    height: 100%;
+    overflow: hidden;
+}
+
+main {
+    position: relative;
+    min-width: 1000px;
+    height: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    article {
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+        .logo {
+            position: absolute;
+            width: 800px;
+            height: 778px;
+            background: url(../images/logo.png) no-repeat;
+            background-size: 100%;
+            left: -190px;
+            top: 0px;
+        }
+        .text {
+            position: absolute;
+            width: 417px;
+            height: 253px;
+            background: url(../images/text.png) no-repeat;
+            background-size: 100%;
+            left: 600px;
+            top: 37px;
+        }
+        .input {
+            position: absolute;
+            width: 408px;
+            height: 167px;
+            // background-color: #fff;
+            left: 600px;
+            top: 325px;
+            @include clearfix;
+            .t {
+                float: left;
+                width: 408px;
+                height: 60px;
+                @include clearfix;
+                .n {
+                    margin: 0 14px 0 0;
+                }
+                .n,
+                .o {
+                    cursor: pointer;
+                    float: left;
+                    width: 195px;
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    border-radius: 45px;
+                    border: 1px solid #dfcdb0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    box-shadow: 0px 10px 10px -5px #000;
+                    color: #fff;
+                    background: linear-gradient(
+                        to top,
+                        #d9c39a 0%,
+                        #5a3f0f 16%,
+                        #dbc89e 26%,
+                        #dbc89e 39%,
+                        #9a7e52 50%,
+                        #1b0a00 62%,
+                        #9a7e52 76%,
+                        #ffffff 91%,
+                        #9a7e52 100%
+                    );
+                    &:hover,
+                    &:active,
+                    &.active {
+                        border: 1px solid #4ea353;
+                        background: linear-gradient(
+                            to top,
+                            #a6ffa6 0%,
+                            #7cff79 16%,
+                            #009800 43%,
+                            #0a6800 61%,
+                            #0b5b0f 84%,
+                            #0a6800 93%,
+                            #002d02 100%
+                        );
+                    }
+                }
+            }
+            .b {
+                float: left;
+                width: 408px;
+                height: 80px;
+                margin: 20px 0 0 0;
+                @include clearfix;
+                .l {
+                    float: left;
+                    width: 255px;
+                    margin: 0 13px 0 0;
+                    .lt {
+                        margin: 0 0 10px 0;
+                    }
+                    .lt,
+                    .lb {
+                        width: 248px;
+                        height: 33px;
+                        border: 1px solid #feed98;
+                        background-color: #000;
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 33px;
+                        padding: 0 0 0 5px;
+                        input {
+                            background-color: #000;
+                            caret-color: #fff;
+                            outline: none;
+                        }
+                    }
+                }
+                .r {
+                    cursor: pointer;
+                    float: left;
+                    width: 138px;
+                    height: 78px;
+                    text-align: center;
+                    line-height: 80px;
+                    border-radius: 5px;
+                    border: 1px solid #dfcdb0;
+                    font-size: 20px;
+                    font-weight: bold;
+                    box-shadow: 0px 10px 10px -5px #000;
+                    color: #fff;
+                    background: linear-gradient(
+                        to top,
+                        #d9c39a 0%,
+                        #5a3f0f 16%,
+                        #dbc89e 26%,
+                        #dbc89e 39%,
+                        #9a7e52 50%,
+                        #1b0a00 62%,
+                        #9a7e52 76%,
+                        #ffffff 91%,
+                        #9a7e52 100%
+                    );
+                    &:hover,
+                    &:active,
+                    &.active {
+                        background: linear-gradient(
+                            to top,
+                            #ffeecd 0%,
+                            #dbc89e 13%,
+                            #9a7e52 42%,
+                            #1b0a00 100%
+                        );
+                    }
+                }
+            }
+        }
+    }
+    .bg {
+        position: absolute;
+        background: url(../images/bg.jpg) no-repeat top center;
+        background-size: 1920px;
+        width: 100%;
+        height: 100%;
+        z-index: -20;
+    }
+}
+
+.iebg {
+    display: none;
+}

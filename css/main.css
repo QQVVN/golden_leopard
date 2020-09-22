@@ -58,3 +58,166 @@ input {
   border: 0;
   padding: 0;
 }
+
+html {
+  font-family: Microsoft JhengHei;
+  background: #07070e;
+  min-width: 1000px;
+  height: 100%;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  min-width: 1000px;
+  height: 1000px;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+}
+main article {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+main article .logo {
+  position: absolute;
+  width: 800px;
+  height: 778px;
+  background: url(../images/logo.png) no-repeat;
+  background-size: 100%;
+  left: -190px;
+  top: 0px;
+}
+main article .text {
+  position: absolute;
+  width: 417px;
+  height: 253px;
+  background: url(../images/text.png) no-repeat;
+  background-size: 100%;
+  left: 600px;
+  top: 37px;
+}
+main article .input {
+  position: absolute;
+  width: 408px;
+  height: 167px;
+  left: 600px;
+  top: 325px;
+  *zoom: 1;
+}
+main article .input:after, main article .input:before {
+  content: "";
+  display: table;
+}
+main article .input:after {
+  clear: both;
+}
+main article .input .t {
+  float: left;
+  width: 408px;
+  height: 60px;
+  *zoom: 1;
+}
+main article .input .t:after, main article .input .t:before {
+  content: "";
+  display: table;
+}
+main article .input .t:after {
+  clear: both;
+}
+main article .input .t .n {
+  margin: 0 14px 0 0;
+}
+main article .input .t .n,
+main article .input .t .o {
+  cursor: pointer;
+  float: left;
+  width: 195px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  border-radius: 45px;
+  border: 1px solid #dfcdb0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 10px 10px -5px #000;
+  color: #fff;
+  background: linear-gradient(to top, #d9c39a 0%, #5a3f0f 16%, #dbc89e 26%, #dbc89e 39%, #9a7e52 50%, #1b0a00 62%, #9a7e52 76%, #ffffff 91%, #9a7e52 100%);
+}
+main article .input .t .n:hover, main article .input .t .n:active, main article .input .t .n.active,
+main article .input .t .o:hover,
+main article .input .t .o:active,
+main article .input .t .o.active {
+  border: 1px solid #4ea353;
+  background: linear-gradient(to top, #a6ffa6 0%, #7cff79 16%, #009800 43%, #0a6800 61%, #0b5b0f 84%, #0a6800 93%, #002d02 100%);
+}
+main article .input .b {
+  float: left;
+  width: 408px;
+  height: 80px;
+  margin: 20px 0 0 0;
+  *zoom: 1;
+}
+main article .input .b:after, main article .input .b:before {
+  content: "";
+  display: table;
+}
+main article .input .b:after {
+  clear: both;
+}
+main article .input .b .l {
+  float: left;
+  width: 255px;
+  margin: 0 13px 0 0;
+}
+main article .input .b .l .lt {
+  margin: 0 0 10px 0;
+}
+main article .input .b .l .lt,
+main article .input .b .l .lb {
+  width: 248px;
+  height: 33px;
+  border: 1px solid #feed98;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  line-height: 33px;
+  padding: 0 0 0 5px;
+}
+main article .input .b .l .lt input,
+main article .input .b .l .lb input {
+  background-color: #000;
+  caret-color: #fff;
+  outline: none;
+}
+main article .input .b .r {
+  cursor: pointer;
+  float: left;
+  width: 138px;
+  height: 78px;
+  text-align: center;
+  line-height: 80px;
+  border-radius: 5px;
+  border: 1px solid #dfcdb0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 10px 10px -5px #000;
+  color: #fff;
+  background: linear-gradient(to top, #d9c39a 0%, #5a3f0f 16%, #dbc89e 26%, #dbc89e 39%, #9a7e52 50%, #1b0a00 62%, #9a7e52 76%, #ffffff 91%, #9a7e52 100%);
+}
+main article .input .b .r:hover, main article .input .b .r:active, main article .input .b .r.active {
+  background: linear-gradient(to top, #ffeecd 0%, #dbc89e 13%, #9a7e52 42%, #1b0a00 100%);
+}
+main .bg {
+  position: absolute;
+  background: url(../images/bg.jpg) no-repeat top center;
+  background-size: 1920px;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
+}
+
+.iebg {
+  display: none;
+}
