@@ -15,20 +15,22 @@
 html {
     font-family: Microsoft JhengHei;
     background: #07070e;
-    min-width: 1500px;
+    min-width: 1200px;
     height: 100%;
     overflow: hidden;
 }
 
 main {
     position: relative;
-    min-width: 1000px;
+    min-width: 980px;
     height: 1000px;
     overflow: hidden;
-    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    // margin: 0 auto;
     article {
         position: relative;
-        width: 1000px;
+        width: 980px;
         margin: 0 auto;
         .logo {
             position: absolute;
