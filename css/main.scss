@@ -36,7 +36,7 @@ main {
             height: 778px;
             background: url(../images/logo.png) no-repeat top center;
             background-size: 100%;
-            left: -190px;
+            left: -199px;
             top: 0px;
             animation: bounceIn;
             animation-duration: 1s;
@@ -47,15 +47,15 @@ main {
             height: 253px;
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
-            left: 600px;
-            top: 37px;
+            left: 570px;
+            top: 29px;
         }
         .input {
             position: absolute;
             width: 408px;
-            height: 167px;
-            left: 600px;
-            top: 325px;
+            height: 180px;
+            left: 570px;
+            top: 304px;
             @include clearfix;
             .t {
                 float: left;
@@ -112,7 +112,7 @@ main {
                 float: left;
                 width: 408px;
                 height: 80px;
-                margin: 20px 0 0 0;
+                margin: 38px 0 0 0;
                 @include clearfix;
                 .l {
                     float: left;

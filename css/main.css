@@ -85,7 +85,7 @@ main article .logo {
   height: 778px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 100%;
-  left: -190px;
+  left: -199px;
   top: 0px;
   animation: bounceIn;
   animation-duration: 1s;
@@ -96,15 +96,15 @@ main article .text {
   height: 253px;
   background: url(../images/text.png) no-repeat;
   background-size: 100%;
-  left: 600px;
-  top: 37px;
+  left: 570px;
+  top: 29px;
 }
 main article .input {
   position: absolute;
   width: 408px;
-  height: 167px;
-  left: 600px;
-  top: 325px;
+  height: 180px;
+  left: 570px;
+  top: 304px;
   *zoom: 1;
 }
 main article .input:after, main article .input:before {
@@ -157,7 +157,7 @@ main article .input .b {
   float: left;
   width: 408px;
   height: 80px;
-  margin: 20px 0 0 0;
+  margin: 38px 0 0 0;
   *zoom: 1;
 }
 main article .input .b:after, main article .input .b:before {
