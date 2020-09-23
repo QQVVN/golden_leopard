@@ -15,14 +15,14 @@
 html {
     font-family: Microsoft JhengHei;
     background: #07070e;
-    min-width: 1200px;
+    min-width: 1500px;
     height: 100%;
     overflow: hidden;
 }
 
 main {
     position: relative;
-    min-width: 1200px;
+    min-width: 1500px;
     height: 1000px;
     overflow: hidden;
     left: 50%;
@@ -30,7 +30,7 @@ main {
     // margin: 0 auto;
     article {
         position: relative;
-        width: 980px;
+        width: 1000px;
         margin: 0 auto;
         .logo {
             position: absolute;
