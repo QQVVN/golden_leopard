@@ -15,7 +15,7 @@
 html {
     font-family: Microsoft JhengHei;
     background: #07070e;
-    min-width: 1200px;
+    min-width: 1500px;
     height: 100%;
     overflow: hidden;
 }
@@ -38,6 +38,8 @@ main {
             background-size: 100%;
             left: -190px;
             top: 0px;
+            animation: bounceIn;
+            animation-duration: 1s;
         }
         .text {
             position: absolute;
@@ -164,13 +166,7 @@ main {
                     &:hover,
                     &:active,
                     &.active {
-                        background: linear-gradient(
-                            to top,
-                            #ffeecd 0%,
-                            #dbc89e 13%,
-                            #9a7e52 42%,
-                            #1b0a00 100%
-                        );
+                        background: linear-gradient(to top, #ffeecd 0%, #dbc89e 13%, #9a7e52 42%, #1b0a00 100%);
                     }
                 }
             }

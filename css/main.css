@@ -62,7 +62,7 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #07070e;
-  min-width: 1200px;
+  min-width: 1500px;
   height: 100%;
   overflow: hidden;
 }
@@ -87,6 +87,8 @@ main article .logo {
   background-size: 100%;
   left: -190px;
   top: 0px;
+  animation: bounceIn;
+  animation-duration: 1s;
 }
 main article .text {
   position: absolute;
