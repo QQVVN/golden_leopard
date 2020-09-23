@@ -1,0 +1,27 @@
+main article .input .t .n,
+main article .input .t .o {
+  background-color: #9a7e52;
+}
+main article .input .t .n:hover, main article .input .t .n:active, main article .input .t .n.active,
+main article .input .t .o:hover,
+main article .input .t .o:active,
+main article .input .t .o.active {
+  background-color: #0a6800;
+}
+main article .input .b .r {
+  background-color: #9a7e52;
+}
+main article .input .b .r:hover, main article .input .b .r:active, main article .input .b .r.active {
+  background-color: #dbc89e;
+}
+
+.iebg {
+  display: block;
+  position: absolute;
+  background: url(../images/bg.jpg);
+  width: 1920px;
+  height: 1000px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -20;
+}
