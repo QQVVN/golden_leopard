@@ -20,29 +20,15 @@ html {
     overflow: hidden;
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
-        // min-width: 100vw;
-        // width: 200vw;
-        // height: 200vh;
         position: relative;
         transform: scale(0.9);
-        left: -10%;
-        top: -50%;
+        margin: -9% 0 0 -6.5%;
     }
 }
 
 main {
     position: relative;
     min-width: 1200px;
-    @supports (-webkit-touch-callout: none) {
-        /* CSS specific to iOS devices */
-        // min-width: 100vw;
-        // width: 200vw;
-        // height: 200vh;
-        // position: absolute;
-        // transform: scale(0.1);
-        // left: -50%;
-        // top: -50%;
-    }
     height: 980px;
     overflow: hidden;
     margin: 0 auto;

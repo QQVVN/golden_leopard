@@ -71,8 +71,7 @@ html {
     /* CSS specific to iOS devices */
     position: relative;
     transform: scale(0.9);
-    left: -10%;
-    top: -50%;
+    margin: -9% 0 0 -6.5%;
   }
 }
 
@@ -82,11 +81,6 @@ main {
   height: 980px;
   overflow: hidden;
   margin: 0 auto;
-}
-@supports (-webkit-touch-callout: none) {
-  main {
-    /* CSS specific to iOS devices */
-  }
 }
 main article {
   position: relative;
