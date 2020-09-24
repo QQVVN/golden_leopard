@@ -57,12 +57,12 @@ main {
             height: 180px;
             left: 560px;
             top: 307px;
-            @include clearfix;
+            // @include clearfix;
             .t {
                 float: left;
                 width: 408px;
                 height: 60px;
-                @include clearfix;
+                // @include clearfix;
                 .n {
                     margin: 0 14px 0 0;
                 }
@@ -114,7 +114,7 @@ main {
                 width: 408px;
                 height: 80px;
                 margin: 38px 0 0 0;
-                @include clearfix;
+                // @include clearfix;
                 .l {
                     float: left;
                     width: 246px;

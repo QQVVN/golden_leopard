@@ -106,27 +106,11 @@ main article .input {
   height: 180px;
   left: 560px;
   top: 307px;
-  *zoom: 1;
-}
-main article .input:after, main article .input:before {
-  content: "";
-  display: table;
-}
-main article .input:after {
-  clear: both;
 }
 main article .input .t {
   float: left;
   width: 408px;
   height: 60px;
-  *zoom: 1;
-}
-main article .input .t:after, main article .input .t:before {
-  content: "";
-  display: table;
-}
-main article .input .t:after {
-  clear: both;
 }
 main article .input .t .n {
   margin: 0 14px 0 0;
@@ -159,14 +143,6 @@ main article .input .b {
   width: 408px;
   height: 80px;
   margin: 38px 0 0 0;
-  *zoom: 1;
-}
-main article .input .b:after, main article .input .b:before {
-  content: "";
-  display: table;
-}
-main article .input .b:after {
-  clear: both;
 }
 main article .input .b .l {
   float: left;
