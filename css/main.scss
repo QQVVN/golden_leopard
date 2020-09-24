@@ -46,16 +46,12 @@ main {
             height: 253px;
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
-            // left: 560px;
-            // top: 36px;
             margin: 36px 0 0 584px;
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
-            // left: 560px;
-            // top: 310px;
             margin: 310px 0 0 584px;
             @include clearfix;
             .t {
@@ -114,7 +110,6 @@ main {
                 float: left;
                 width: 408px;
                 height: 80px;
-                // margin: 38px 0 0 0;
                 @include clearfix;
                 .l {
                     float: left;
@@ -176,6 +171,8 @@ main {
     }
     .bg {
         position: absolute;
+        width: 100%;
+        height: 1000px;
         background: url(../images/bg.jpg) no-repeat top center;
         background-size: 1920px;
         width: 100%;
