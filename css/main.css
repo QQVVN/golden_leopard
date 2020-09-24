@@ -92,7 +92,7 @@ main article .logo {
 @supports (-webkit-touch-callout: none) {
   main article .logo {
     /* CSS specific to iOS devices */
-    width: 600px;
+    width: 90%;
   }
 }
 main article .text {
