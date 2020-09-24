@@ -85,7 +85,7 @@ main article .logo {
   height: 778px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 100%;
-  left: -199px;
+  left: -212px;
   top: 0px;
   animation: bounceIn;
   animation-duration: 1s;
@@ -96,15 +96,15 @@ main article .text {
   height: 253px;
   background: url(../images/text.png) no-repeat;
   background-size: 100%;
-  left: 570px;
-  top: 29px;
+  left: 560px;
+  top: 36px;
 }
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 570px;
-  top: 304px;
+  left: 560px;
+  top: 310px;
   *zoom: 1;
 }
 main article .input:after, main article .input:before {
@@ -118,6 +118,7 @@ main article .input .t {
   float: left;
   width: 408px;
   height: 60px;
+  margin: 0 0 30px 0;
   *zoom: 1;
 }
 main article .input .t:after, main article .input .t:before {
@@ -135,8 +136,8 @@ main article .input .t .o {
   cursor: pointer;
   float: left;
   width: 195px;
-  height: 60px;
-  line-height: 60px;
+  height: 50px;
+  line-height: 50px;
   text-align: center;
   border-radius: 45px;
   border: 1px solid #dfcdb0;
@@ -157,7 +158,6 @@ main article .input .b {
   float: left;
   width: 408px;
   height: 80px;
-  margin: 38px 0 0 0;
   *zoom: 1;
 }
 main article .input .b:after, main article .input .b:before {
