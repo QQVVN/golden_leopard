@@ -62,23 +62,23 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #07070e;
-  min-width: 1100px;
+  min-width: 1000px;
   height: 100%;
   overflow: hidden;
 }
 
 main {
   position: relative;
-  min-width: 1100px;
+  min-width: 1000px;
   height: 980px;
   overflow: hidden;
   margin: 0 auto;
 }
 main article {
   position: relative;
-  width: 900px;
+  width: 950px;
   left: 50%;
-  transform: translateX(-53%);
+  transform: translateX(-50%);
 }
 main article .logo {
   position: absolute;
