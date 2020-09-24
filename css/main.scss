@@ -29,40 +29,42 @@ main {
     margin: 0 auto;
     article {
         position: relative;
-        width: 950px;
+        width: 890px;
         margin: 0 auto;
+        @include clearfix;
         .logo {
+            float: left;
             position: absolute;
             width: 805px;
             height: 782px;
-            right: 360px;
+            right: 330px;
             top: 0px;
             background: url(../images/logo.png) no-repeat top center;
-            background-size: 100%;
+            background-size: 805px;
             animation: bounceIn;
             animation-duration: 1s;
         }
         .text {
+            float: left;
             position: absolute;
             width: 417px;
             height: 253px;
-            left: 560px;
+            left: 530px;
             top: 36px;
             background: url(../images/text.png) no-repeat;
-            background-size: 100%;
+            background-size: 417px;
         }
         .input {
+            float: left;
             position: absolute;
             width: 408px;
             height: 180px;
-            left: 560px;
+            left: 530px;
             top: 307px;
-            // @include clearfix;
             .t {
                 float: left;
                 width: 408px;
                 height: 60px;
-                // @include clearfix;
                 .n {
                     margin: 0 14px 0 0;
                 }
@@ -114,7 +116,6 @@ main {
                 width: 408px;
                 height: 80px;
                 margin: 38px 0 0 0;
-                // @include clearfix;
                 .l {
                     float: left;
                     width: 246px;
