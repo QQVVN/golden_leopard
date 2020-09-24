@@ -19,10 +19,10 @@ html {
     height: 100%;
     overflow: hidden;
     @supports (-webkit-touch-callout: none) {
-        /* CSS specific to iOS devices */
         position: relative;
         transform: scale(0.9);
-        margin: -9% 0 0 -6.5%;
+        left: -10%;
+        margin: -9% 0 0 0;
     }
 }
 
