@@ -89,6 +89,13 @@ main article .logo {
   animation: bounceIn;
   animation-duration: 1s;
 }
+@supports (-webkit-touch-callout: none) {
+  main article .logo {
+    /* CSS specific to iOS devices */
+    width: 80%;
+    height: 780px;
+  }
+}
 main article .text {
   position: absolute;
   width: 417px;
@@ -209,8 +216,6 @@ main article .input .b .r:hover, main article .input .b .r:active, main article 
 }
 main .bg {
   position: absolute;
-  width: 1920px;
-  height: 1000px;
   background: url(../images/bg.jpg) no-repeat top center;
   background-size: 1920px;
   width: 100%;

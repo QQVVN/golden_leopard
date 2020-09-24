@@ -39,6 +39,11 @@ main {
             margin: 0 0 0 -289px;
             animation: bounceIn;
             animation-duration: 1s;
+            @supports (-webkit-touch-callout: none) {
+                /* CSS specific to iOS devices */
+                width: 80%;
+                height: 780px;
+            }
         }
         .text {
             position: absolute;
@@ -171,8 +176,6 @@ main {
     }
     .bg {
         position: absolute;
-        width: 1920px;
-        height: 1000px;
         background: url(../images/bg.jpg) no-repeat top center;
         background-size: 1920px;
         width: 100%;
