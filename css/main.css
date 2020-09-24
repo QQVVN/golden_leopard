@@ -81,11 +81,9 @@ main article {
 }
 main article .logo {
   position: absolute;
-  width: 800px;
-  height: 778px;
-  background: url(../images/logo.png) no-repeat top center;
-  background-size: 100%;
   margin: 0 0 0 -199px;
+  animation: bounceIn;
+  animation-duration: 1s;
 }
 main article .text {
   position: absolute;
