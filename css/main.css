@@ -422,7 +422,7 @@ main article {
 }
 main article .logo {
   float: left;
-  width: 805px;
+  width: 80%;
   height: 782px;
   margin: 0 0 0 -195px;
   background: url(../images/logo.png) no-repeat top center;
@@ -433,7 +433,7 @@ main article .logo {
 main article .login {
   float: left;
   position: relative;
-  width: 420px;
+  width: 42%;
   height: 782px;
   margin: 0 0 0 -30px;
 }
