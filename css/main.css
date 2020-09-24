@@ -402,6 +402,7 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #07070e;
+  min-width: 1200px;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
