@@ -21,12 +21,12 @@ html {
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
         // min-width: 100vw;
-        width: 200vw;
-        height: 200vh;
+        // width: 200vw;
+        // height: 200vh;
         // position: absolute;
-        transform: scale(0.5);
-        left: -50%;
-        top: -50%;
+        transform: scale(1.0);
+        // left: -50%;
+        // top: -50%;
     }
 }
 
