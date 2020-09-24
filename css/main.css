@@ -93,7 +93,7 @@ main article .logo {
   main article .logo {
     /* CSS specific to iOS devices */
     width: 66%;
-    margin-left: -120px;
+    margin: 50px 0 0 -120px;
   }
 }
 main article .text {
@@ -104,12 +104,24 @@ main article .text {
   background-size: 100%;
   margin: 36px 0 0 584px;
 }
+@supports (-webkit-touch-callout: none) {
+  main article .text {
+    /* CSS specific to iOS devices */
+    margin: 36px 0 0 400px;
+  }
+}
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
   margin: 310px 0 0 584px;
   *zoom: 1;
+}
+@supports (-webkit-touch-callout: none) {
+  main article .input {
+    /* CSS specific to iOS devices */
+    margin: 310px 0 0 400px;
+  }
 }
 main article .input:after, main article .input:before {
   content: "";

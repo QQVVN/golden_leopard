@@ -42,7 +42,7 @@ main {
             @supports (-webkit-touch-callout: none) {
                 /* CSS specific to iOS devices */
                 width: 66%;
-                margin-left: -120px;
+                margin: 50px 0 0 -120px;
                 
             }
         }
@@ -53,20 +53,22 @@ main {
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
             margin: 36px 0 0 584px;
-            // @supports (-webkit-touch-callout: none) {
-            //     /* CSS specific to iOS devices */
+            @supports (-webkit-touch-callout: none) {
+                /* CSS specific to iOS devices */
+                margin: 36px 0 0 400px;
                 
-            // }
+            }
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
             margin: 310px 0 0 584px;
-            // @supports (-webkit-touch-callout: none) {
-            //     /* CSS specific to iOS devices */
+            @supports (-webkit-touch-callout: none) {
+                /* CSS specific to iOS devices */
+                margin: 310px 0 0 400px;
                 
-            // }
+            }
             @include clearfix;
             .t {
                 float: left;
