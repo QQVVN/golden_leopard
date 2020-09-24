@@ -31,9 +31,7 @@ main {
         position: relative;
         width: 890px;
         margin: 0 auto;
-        @include clearfix;
         .logo {
-            float: left;
             position: absolute;
             width: 805px;
             height: 782px;
@@ -45,7 +43,6 @@ main {
             animation-duration: 1s;
         }
         .text {
-            float: left;
             position: absolute;
             width: 417px;
             height: 253px;
@@ -55,7 +52,6 @@ main {
             background-size: 417px;
         }
         .input {
-            float: left;
             position: absolute;
             width: 408px;
             height: 180px;

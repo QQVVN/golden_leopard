@@ -79,17 +79,8 @@ main article {
   position: relative;
   width: 890px;
   margin: 0 auto;
-  *zoom: 1;
-}
-main article:after, main article:before {
-  content: "";
-  display: table;
-}
-main article:after {
-  clear: both;
 }
 main article .logo {
-  float: left;
   position: absolute;
   width: 805px;
   height: 782px;
@@ -101,7 +92,6 @@ main article .logo {
   animation-duration: 1s;
 }
 main article .text {
-  float: left;
   position: absolute;
   width: 417px;
   height: 253px;
@@ -111,7 +101,6 @@ main article .text {
   background-size: 417px;
 }
 main article .input {
-  float: left;
   position: absolute;
   width: 408px;
   height: 180px;
