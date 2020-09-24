@@ -23,7 +23,8 @@ html {
 
 main {
     position: relative;
-    min-width: 1100px;
+    // min-width: 1100px;
+    width: 100%;
     height: 980px;
     overflow: hidden;
     margin: 0 auto;
@@ -49,7 +50,7 @@ main {
             margin: 0 0 0 -30px;
             .text {
                 position: absolute;
-                width: 417px;
+                width: 100%;
                 height: 253px;
                 top: 36px;
                 background: url(../images/text.png) no-repeat;
@@ -57,12 +58,12 @@ main {
             }
             .input {
                 position: absolute;
-                width: 408px;
+                width: 100%;
                 height: 180px;
                 top: 314px;
                 .t {
                     float: left;
-                    width: 408px;
+                    width: 100%;
                     height: 60px;
                     margin: 0 0 30px 0;
                     .n {
@@ -72,7 +73,8 @@ main {
                     .o {
                         cursor: pointer;
                         float: left;
-                        width: 195px;
+                        // width: 195px;
+                        width: 47.8%;
                         height: 45px;
                         line-height: 45px;
                         text-align: center;
@@ -113,19 +115,19 @@ main {
                 }
                 .b {
                     float: left;
-                    width: 408px;
+                    width: 100%;
                     height: 80px;
                     // margin: 38px 0 0 0;
                     .l {
                         float: left;
-                        width: 246px;
+                        width: 61%;
                         margin: 0 25px 0 0;
                         .lt {
                             margin: 0 0 10px 0;
                         }
                         .lt,
                         .lb {
-                            width: 238px;
+                            width: 100%;
                             height: 33px;
                             border: 1px solid #feed98;
                             background-color: #000;
@@ -143,7 +145,8 @@ main {
                     .r {
                         cursor: pointer;
                         float: left;
-                        width: 135px;
+                        // width: 135px;
+                        width: 32%;
                         height: 78px;
                         text-align: center;
                         line-height: 80px;
