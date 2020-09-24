@@ -20,7 +20,7 @@ html {
     overflow: hidden;
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
-        min-width: 980px;
+        min-width: 900px;
     }
 }
 
@@ -29,7 +29,7 @@ main {
     min-width: 1200px;
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
-        min-width: 980px;
+        min-width: 900px;
     }
     height: 980px;
     overflow: hidden;
