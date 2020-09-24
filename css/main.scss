@@ -32,16 +32,17 @@ main {
         margin: 0 auto;
         .logo {
             position: absolute;
-            width: 100%;
+            width: 800px;
             height: 780px;
             background: url(../images/logo.png) no-repeat top;
-            background-size: 800px;
+            background-size: 100%;
             margin: 0 0 0 -289px;
             animation: bounceIn;
             animation-duration: 1s;
             @supports (-webkit-touch-callout: none) {
                 /* CSS specific to iOS devices */
-                width: 90%;
+                width: 66%;
+                margin-left: -120px;
                 
             }
         }
@@ -52,22 +53,20 @@ main {
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
             margin: 36px 0 0 584px;
-            @supports (-webkit-touch-callout: none) {
-                /* CSS specific to iOS devices */
-                width: 90%;
+            // @supports (-webkit-touch-callout: none) {
+            //     /* CSS specific to iOS devices */
                 
-            }
+            // }
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
             margin: 310px 0 0 584px;
-            @supports (-webkit-touch-callout: none) {
-                /* CSS specific to iOS devices */
-                width: 90%;
+            // @supports (-webkit-touch-callout: none) {
+            //     /* CSS specific to iOS devices */
                 
-            }
+            // }
             @include clearfix;
             .t {
                 float: left;

@@ -81,10 +81,10 @@ main article {
 }
 main article .logo {
   position: absolute;
-  width: 100%;
+  width: 800px;
   height: 780px;
   background: url(../images/logo.png) no-repeat top;
-  background-size: 800px;
+  background-size: 100%;
   margin: 0 0 0 -289px;
   animation: bounceIn;
   animation-duration: 1s;
@@ -92,7 +92,8 @@ main article .logo {
 @supports (-webkit-touch-callout: none) {
   main article .logo {
     /* CSS specific to iOS devices */
-    width: 90%;
+    width: 66%;
+    margin-left: -120px;
   }
 }
 main article .text {
@@ -103,24 +104,12 @@ main article .text {
   background-size: 100%;
   margin: 36px 0 0 584px;
 }
-@supports (-webkit-touch-callout: none) {
-  main article .text {
-    /* CSS specific to iOS devices */
-    width: 90%;
-  }
-}
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
   margin: 310px 0 0 584px;
   *zoom: 1;
-}
-@supports (-webkit-touch-callout: none) {
-  main article .input {
-    /* CSS specific to iOS devices */
-    width: 90%;
-  }
 }
 main article .input:after, main article .input:before {
   content: "";
