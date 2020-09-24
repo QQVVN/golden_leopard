@@ -28,8 +28,9 @@ main {
     margin: 0 auto;
     article {
         position: relative;
-        width: 950px;
-        margin: 0 auto;
+        width: 900px;
+        left: 50%;
+        transform: translateX(-53%);
         .logo {
             position: absolute;
             width: 750px;
@@ -185,3 +186,4 @@ main {
 .iebg {
     display: none;
 }
+

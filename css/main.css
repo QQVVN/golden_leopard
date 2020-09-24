@@ -76,8 +76,9 @@ main {
 }
 main article {
   position: relative;
-  width: 950px;
-  margin: 0 auto;
+  width: 900px;
+  left: 50%;
+  transform: translateX(-53%);
 }
 main article .logo {
   position: absolute;
