@@ -62,14 +62,14 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #07070e;
-  min-width: 1000px;
+  min-width: 1100px;
   height: 100%;
   overflow: hidden;
 }
 
 main {
   position: relative;
-  min-width: 1000px;
+  min-width: 1100px;
   height: 980px;
   overflow: hidden;
   margin: 0 auto;
@@ -97,14 +97,14 @@ main article .text {
   height: 253px;
   background: url(../images/text.png) no-repeat;
   background-size: 100%;
-  left: 532px;
+  left: 525px;
   top: 44px;
 }
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 550px;
+  left: 525px;
   top: 331px;
   *zoom: 1;
 }
