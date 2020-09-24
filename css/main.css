@@ -81,12 +81,12 @@ main article {
 }
 main article .logo {
   position: absolute;
-  width: 770px;
-  height: 778px;
+  width: 750px;
+  height: 730px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 100%;
-  left: -185px;
-  top: 16px;
+  left: -168px;
+  top: 40px;
   animation: bounceIn;
   animation-duration: 1s;
 }
@@ -96,15 +96,15 @@ main article .text {
   height: 253px;
   background: url(../images/text.png) no-repeat;
   background-size: 100%;
-  left: 560px;
-  top: 29px;
+  left: 550px;
+  top: 44px;
 }
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 560px;
-  top: 304px;
+  left: 550px;
+  top: 317px;
   *zoom: 1;
 }
 main article .input:after, main article .input:before {
