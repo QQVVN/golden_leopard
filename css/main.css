@@ -69,7 +69,7 @@ html {
 @supports (-webkit-touch-callout: none) {
   html {
     /* CSS specific to iOS devices */
-    min-width: 1200px;
+    width: 100vw;
   }
 }
 
@@ -83,7 +83,7 @@ main {
 @supports (-webkit-touch-callout: none) {
   main {
     /* CSS specific to iOS devices */
-    min-width: 1200px;
+    width: 100vw;
   }
 }
 main article {
