@@ -37,7 +37,7 @@ main {
             height: 782px;
             margin: 0 0 0 -195px;
             background: url(../images/logo.png) no-repeat top center;
-            background-size: 805px;
+            background-size: 100%;
             animation: bounceIn;
             animation-duration: 1s;
         }
@@ -51,9 +51,9 @@ main {
                 position: absolute;
                 width: 417px;
                 height: 253px;
-                top: .36px;
+                top: 36px;
                 background: url(../images/text.png) no-repeat;
-                background-size: 417px;
+                background-size: 100%;
             }
             .input {
                 position: absolute;
