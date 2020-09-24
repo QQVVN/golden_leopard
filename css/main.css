@@ -209,7 +209,7 @@ main article .input .b .r:hover, main article .input .b .r:active, main article 
 }
 main .bg {
   position: absolute;
-  width: 100%;
+  width: 1920px;
   height: 1000px;
   background: url(../images/bg.jpg) no-repeat top center;
   background-size: 1920px;
