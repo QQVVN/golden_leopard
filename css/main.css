@@ -85,7 +85,7 @@ main article .logo {
   height: 778px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 100%;
-  top: 0px;
+  margin: 0 0 0 -199px;
   animation: bounceIn;
   animation-duration: 1s;
 }
