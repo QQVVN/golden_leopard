@@ -70,9 +70,9 @@ html {
   html {
     /* CSS specific to iOS devices */
     position: relative;
-    transform: scale(0.8);
-    left: -15%;
-    top: -15%;
+    transform: scale(0.9);
+    left: -10%;
+    top: -20%;
   }
 }
 
