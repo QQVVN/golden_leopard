@@ -41,8 +41,8 @@ main {
             animation-duration: 1s;
             @supports (-webkit-touch-callout: none) {
                 /* CSS specific to iOS devices */
-                width: 10%;
-                margin: 0 0 0 -200px;
+                width: 600px;
+                
             }
         }
         .text {

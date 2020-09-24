@@ -92,8 +92,7 @@ main article .logo {
 @supports (-webkit-touch-callout: none) {
   main article .logo {
     /* CSS specific to iOS devices */
-    width: 10%;
-    margin: 0 0 0 -200px;
+    width: 600px;
   }
 }
 main article .text {
