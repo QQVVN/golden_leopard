@@ -15,7 +15,7 @@
 html {
     font-family: Microsoft JhengHei;
     background: #07070e;
-    min-width: 1200px;
+    min-width: 1100px;
     width: 100%;
     overflow: hidden;
     margin: 0 auto;
@@ -23,7 +23,7 @@ html {
 
 main {
     position: relative;
-    min-width: 1200px;
+    min-width: 1100px;
     height: 980px;
     overflow: hidden;
     margin: 0 auto;
@@ -32,139 +32,144 @@ main {
         width: 1100px;
         margin: 0 auto;
         .logo {
-            position: absolute;
+            float: left;
             width: 805px;
             height: 782px;
-            right: 435px;
-            top: 0px;
+            margin: 0 0 0 -140px;
             background: url(../images/logo.png) no-repeat top center;
             background-size: 805px;
             animation: bounceIn;
             animation-duration: 1s;
         }
-        .text {
-            position: absolute;
-            width: 417px;
-            height: 253px;
-            left: 635px;
-            top: 36px;
-            background: url(../images/text.png) no-repeat;
-            background-size: 417px;
-        }
-        .input {
-            position: absolute;
-            width: 408px;
-            height: 180px;
-            left: 635px;
-            top: 307px;
-            .t {
-                float: left;
+        .login {
+            float: left;
+            position: relative;
+            width: 435px;
+            height: 782px;
+            margin: 0 0 0 -30px;
+            .text {
+                position: absolute;
+                width: 417px;
+                height: 253px;
+                top: .36px;
+                background: url(../images/text.png) no-repeat;
+                background-size: 417px;
+            }
+            .input {
+                position: absolute;
                 width: 408px;
-                height: 60px;
-                .n {
-                    margin: 0 14px 0 0;
-                }
-                .n,
-                .o {
-                    cursor: pointer;
+                height: 180px;
+                top: 314px;
+                .t {
                     float: left;
-                    width: 195px;
-                    height: 52px;
-                    line-height: 52px;
-                    text-align: center;
-                    border-radius: 45px;
-                    border: 1px solid #dfcdb0;
-                    font-size: 20px;
-                    font-weight: bold;
-                    box-shadow: 0px 10px 10px -5px #000;
-                    color: #fff;
-                    background: linear-gradient(
-                        to top,
-                        #d9c39a 0%,
-                        #5a3f0f 16%,
-                        #dbc89e 26%,
-                        #dbc89e 39%,
-                        #9a7e52 50%,
-                        #1b0a00 62%,
-                        #9a7e52 76%,
-                        #ffffff 91%,
-                        #9a7e52 100%
-                    );
-                    &:hover,
-                    &:active,
-                    &.active {
-                        border: 1px solid #4ea353;
+                    width: 408px;
+                    height: 60px;
+                    margin: 0 0 30px 0;
+                    .n {
+                        margin: 0 14px 0 0;
+                    }
+                    .n,
+                    .o {
+                        cursor: pointer;
+                        float: left;
+                        width: 195px;
+                        height: 45px;
+                        line-height: 45px;
+                        text-align: center;
+                        border-radius: 45px;
+                        border: 1px solid #dfcdb0;
+                        font-size: 20px;
+                        font-weight: bold;
+                        box-shadow: 0px 10px 10px -5px #000;
+                        color: #fff;
                         background: linear-gradient(
                             to top,
-                            #a6ffa6 0%,
-                            #7cff79 16%,
-                            #009800 43%,
-                            #0a6800 61%,
-                            #0b5b0f 84%,
-                            #0a6800 93%,
-                            #002d02 100%
+                            #d9c39a 0%,
+                            #5a3f0f 16%,
+                            #dbc89e 26%,
+                            #dbc89e 39%,
+                            #9a7e52 50%,
+                            #1b0a00 62%,
+                            #9a7e52 76%,
+                            #ffffff 91%,
+                            #9a7e52 100%
                         );
-                    }
-                }
-            }
-            .b {
-                float: left;
-                width: 408px;
-                height: 80px;
-                margin: 38px 0 0 0;
-                .l {
-                    float: left;
-                    width: 246px;
-                    margin: 0 25px 0 0;
-                    .lt {
-                        margin: 0 0 10px 0;
-                    }
-                    .lt,
-                    .lb {
-                        width: 238px;
-                        height: 33px;
-                        border: 1px solid #feed98;
-                        background-color: #000;
-                        color: #fff;
-                        font-size: 18px;
-                        line-height: 33px;
-                        padding: 0 0 0 5px;
-                        input {
-                            background-color: #000;
-                            caret-color: #fff;
-                            outline: none;
+                        &:hover,
+                        &:active,
+                        &.active {
+                            border: 1px solid #4ea353;
+                            background: linear-gradient(
+                                to top,
+                                #a6ffa6 0%,
+                                #7cff79 16%,
+                                #009800 43%,
+                                #0a6800 61%,
+                                #0b5b0f 84%,
+                                #0a6800 93%,
+                                #002d02 100%
+                            );
                         }
                     }
                 }
-                .r {
-                    cursor: pointer;
+                .b {
                     float: left;
-                    width: 135px;
-                    height: 78px;
-                    text-align: center;
-                    line-height: 80px;
-                    border-radius: 5px;
-                    border: 1px solid #dfcdb0;
-                    font-size: 20px;
-                    font-weight: bold;
-                    box-shadow: 0px 10px 10px -5px #000;
-                    color: #fff;
-                    background: linear-gradient(
-                        to top,
-                        #d9c39a 0%,
-                        #5a3f0f 16%,
-                        #dbc89e 26%,
-                        #dbc89e 39%,
-                        #9a7e52 50%,
-                        #1b0a00 62%,
-                        #9a7e52 76%,
-                        #ffffff 91%,
-                        #9a7e52 100%
-                    );
-                    &:hover,
-                    &:active,
-                    &.active {
-                        background: linear-gradient(to top, #ffeecd 0%, #dbc89e 13%, #9a7e52 42%, #1b0a00 100%);
+                    width: 408px;
+                    height: 80px;
+                    // margin: 38px 0 0 0;
+                    .l {
+                        float: left;
+                        width: 246px;
+                        margin: 0 25px 0 0;
+                        .lt {
+                            margin: 0 0 10px 0;
+                        }
+                        .lt,
+                        .lb {
+                            width: 238px;
+                            height: 33px;
+                            border: 1px solid #feed98;
+                            background-color: #000;
+                            color: #fff;
+                            font-size: 18px;
+                            line-height: 33px;
+                            padding: 0 0 0 5px;
+                            input {
+                                background-color: #000;
+                                caret-color: #fff;
+                                outline: none;
+                            }
+                        }
+                    }
+                    .r {
+                        cursor: pointer;
+                        float: left;
+                        width: 135px;
+                        height: 78px;
+                        text-align: center;
+                        line-height: 80px;
+                        border-radius: 5px;
+                        border: 1px solid #dfcdb0;
+                        font-size: 20px;
+                        font-weight: bold;
+                        box-shadow: 0px 10px 10px -5px #000;
+                        color: #fff;
+                        background: linear-gradient(
+                            to top,
+                            #d9c39a 0%,
+                            #5a3f0f 16%,
+                            #dbc89e 26%,
+                            #dbc89e 39%,
+                            #9a7e52 50%,
+                            #1b0a00 62%,
+                            #9a7e52 76%,
+                            #ffffff 91%,
+                            #9a7e52 100%
+                        );
+                        &:hover,
+                        &:active,
+                        &.active {
+                            background: linear-gradient(to top, #ffeecd 0%, #dbc89e 13%, #9a7e52 42%, #1b0a00 100%);
+                        }
                     }
                 }
             }

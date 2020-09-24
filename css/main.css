@@ -402,7 +402,7 @@ input {
 html {
   font-family: Microsoft JhengHei;
   background: #07070e;
-  min-width: 1200px;
+  min-width: 1100px;
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -410,7 +410,7 @@ html {
 
 main {
   position: relative;
-  min-width: 1200px;
+  min-width: 1100px;
   height: 980px;
   overflow: hidden;
   margin: 0 auto;
@@ -421,47 +421,52 @@ main article {
   margin: 0 auto;
 }
 main article .logo {
-  position: absolute;
+  float: left;
   width: 805px;
   height: 782px;
-  right: 435px;
-  top: 0px;
+  margin: 0 0 0 -140px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 805px;
   animation: bounceIn;
   animation-duration: 1s;
 }
-main article .text {
+main article .login {
+  float: left;
+  position: relative;
+  width: 435px;
+  height: 782px;
+  margin: 0 0 0 -30px;
+}
+main article .login .text {
   position: absolute;
   width: 417px;
   height: 253px;
-  left: 635px;
-  top: 36px;
+  top: 0.36px;
   background: url(../images/text.png) no-repeat;
   background-size: 417px;
 }
-main article .input {
+main article .login .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 635px;
-  top: 307px;
+  top: 314px;
 }
-main article .input .t {
+main article .login .input .t {
   float: left;
   width: 408px;
   height: 60px;
+  margin: 0 0 30px 0;
 }
-main article .input .t .n {
+main article .login .input .t .n {
   margin: 0 14px 0 0;
 }
-main article .input .t .n,
-main article .input .t .o {
+main article .login .input .t .n,
+main article .login .input .t .o {
   cursor: pointer;
   float: left;
   width: 195px;
-  height: 52px;
-  line-height: 52px;
+  height: 45px;
+  line-height: 45px;
   text-align: center;
   border-radius: 45px;
   border: 1px solid #dfcdb0;
@@ -471,29 +476,28 @@ main article .input .t .o {
   color: #fff;
   background: linear-gradient(to top, #d9c39a 0%, #5a3f0f 16%, #dbc89e 26%, #dbc89e 39%, #9a7e52 50%, #1b0a00 62%, #9a7e52 76%, #ffffff 91%, #9a7e52 100%);
 }
-main article .input .t .n:hover, main article .input .t .n:active, main article .input .t .n.active,
-main article .input .t .o:hover,
-main article .input .t .o:active,
-main article .input .t .o.active {
+main article .login .input .t .n:hover, main article .login .input .t .n:active, main article .login .input .t .n.active,
+main article .login .input .t .o:hover,
+main article .login .input .t .o:active,
+main article .login .input .t .o.active {
   border: 1px solid #4ea353;
   background: linear-gradient(to top, #a6ffa6 0%, #7cff79 16%, #009800 43%, #0a6800 61%, #0b5b0f 84%, #0a6800 93%, #002d02 100%);
 }
-main article .input .b {
+main article .login .input .b {
   float: left;
   width: 408px;
   height: 80px;
-  margin: 38px 0 0 0;
 }
-main article .input .b .l {
+main article .login .input .b .l {
   float: left;
   width: 246px;
   margin: 0 25px 0 0;
 }
-main article .input .b .l .lt {
+main article .login .input .b .l .lt {
   margin: 0 0 10px 0;
 }
-main article .input .b .l .lt,
-main article .input .b .l .lb {
+main article .login .input .b .l .lt,
+main article .login .input .b .l .lb {
   width: 238px;
   height: 33px;
   border: 1px solid #feed98;
@@ -503,13 +507,13 @@ main article .input .b .l .lb {
   line-height: 33px;
   padding: 0 0 0 5px;
 }
-main article .input .b .l .lt input,
-main article .input .b .l .lb input {
+main article .login .input .b .l .lt input,
+main article .login .input .b .l .lb input {
   background-color: #000;
   caret-color: #fff;
   outline: none;
 }
-main article .input .b .r {
+main article .login .input .b .r {
   cursor: pointer;
   float: left;
   width: 135px;
@@ -524,7 +528,7 @@ main article .input .b .r {
   color: #fff;
   background: linear-gradient(to top, #d9c39a 0%, #5a3f0f 16%, #dbc89e 26%, #dbc89e 39%, #9a7e52 50%, #1b0a00 62%, #9a7e52 76%, #ffffff 91%, #9a7e52 100%);
 }
-main article .input .b .r:hover, main article .input .b .r:active, main article .input .b .r.active {
+main article .login .input .b .r:hover, main article .login .input .b .r:active, main article .login .input .b .r.active {
   background: linear-gradient(to top, #ffeecd 0%, #dbc89e 13%, #9a7e52 42%, #1b0a00 100%);
 }
 main .bg {
