@@ -46,15 +46,17 @@ main {
             height: 253px;
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
-            left: 560px;
-            top: 36px;
+            // left: 560px;
+            // top: 36px;
+            margin: 36px 0 0 572px;
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
-            left: 560px;
-            top: 310px;
+            // left: 560px;
+            // top: 310px;
+            margin: 310px 0 0 572px;
             @include clearfix;
             .t {
                 float: left;

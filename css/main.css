@@ -95,15 +95,13 @@ main article .text {
   height: 253px;
   background: url(../images/text.png) no-repeat;
   background-size: 100%;
-  left: 560px;
-  top: 36px;
+  margin: 36px 0 0 572px;
 }
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 560px;
-  top: 310px;
+  margin: 310px 0 0 572px;
   *zoom: 1;
 }
 main article .input:after, main article .input:before {
