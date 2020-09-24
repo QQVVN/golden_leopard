@@ -29,13 +29,13 @@ main {
     margin: 0 auto;
     article {
         position: relative;
-        width: 1100px;
+        width: 1000px;
         margin: 0 auto;
         .logo {
             float: left;
             width: 805px;
             height: 782px;
-            margin: 0 0 0 -140px;
+            margin: 0 0 0 -195px;
             background: url(../images/logo.png) no-repeat top center;
             background-size: 805px;
             animation: bounceIn;
@@ -44,7 +44,7 @@ main {
         .login {
             float: left;
             position: relative;
-            width: 435px;
+            width: 420px;
             height: 782px;
             margin: 0 0 0 -30px;
             .text {
