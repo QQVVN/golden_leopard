@@ -77,14 +77,14 @@ main {
 }
 main article {
   position: relative;
-  width: 890px;
+  width: 1000px;
   margin: 0 auto;
 }
 main article .logo {
   position: absolute;
   width: 805px;
   height: 782px;
-  right: 330px;
+  right: 385px;
   top: 0px;
   background: url(../images/logo.png) no-repeat top center;
   background-size: 805px;
@@ -95,7 +95,7 @@ main article .text {
   position: absolute;
   width: 417px;
   height: 253px;
-  left: 530px;
+  left: 585px;
   top: 36px;
   background: url(../images/text.png) no-repeat;
   background-size: 417px;
@@ -104,7 +104,7 @@ main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
-  left: 530px;
+  left: 585px;
   top: 307px;
 }
 main article .input .t {
