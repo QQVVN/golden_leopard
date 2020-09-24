@@ -18,11 +18,19 @@ html {
     min-width: 1200px;
     height: 100%;
     overflow: hidden;
+    @supports (-webkit-touch-callout: none) {
+        /* CSS specific to iOS devices */
+        min-width: 980px;
+    }
 }
 
 main {
     position: relative;
     min-width: 1200px;
+    @supports (-webkit-touch-callout: none) {
+        /* CSS specific to iOS devices */
+        min-width: 980px;
+    }
     height: 980px;
     overflow: hidden;
     margin: 0 auto;
@@ -39,12 +47,6 @@ main {
             margin: 0 0 0 -189px;
             animation: bounceIn;
             animation-duration: 1s;
-            // @supports (-webkit-touch-callout: none) {
-            //     /* CSS specific to iOS devices */
-            //     width: 66%;
-            //     margin: 50px 0 0 -120px;
-                
-            // }
         }
         .text {
             position: absolute;
@@ -53,22 +55,12 @@ main {
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
             margin: 36px 0 0 584px;
-            // @supports (-webkit-touch-callout: none) {
-            //     /* CSS specific to iOS devices */
-            //     margin: 36px 0 0 400px;
-                
-            // }
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
             margin: 310px 0 0 584px;
-            // @supports (-webkit-touch-callout: none) {
-            //     /* CSS specific to iOS devices */
-            //     margin: 310px 0 0 400px;
-                
-            // }
             @include clearfix;
             .t {
                 float: left;

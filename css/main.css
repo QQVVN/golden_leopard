@@ -66,6 +66,12 @@ html {
   height: 100%;
   overflow: hidden;
 }
+@supports (-webkit-touch-callout: none) {
+  html {
+    /* CSS specific to iOS devices */
+    min-width: 980px;
+  }
+}
 
 main {
   position: relative;
@@ -73,6 +79,12 @@ main {
   height: 980px;
   overflow: hidden;
   margin: 0 auto;
+}
+@supports (-webkit-touch-callout: none) {
+  main {
+    /* CSS specific to iOS devices */
+    min-width: 980px;
+  }
 }
 main article {
   position: relative;
