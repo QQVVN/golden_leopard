@@ -20,13 +20,13 @@ html {
     overflow: hidden;
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
-        min-width: 100vw;
-        width: 200vw;
-        height: 200vh;
+        // min-width: 100vw;
+        // width: 200vw;
+        // height: 200vh;
         // position: absolute;
-        transform: scale(0.5);
-        left: -50%;
-        top: -50%;
+        transform: scale(0.1);
+        // left: -50%;
+        // top: -50%;
     }
 }
 
@@ -35,13 +35,13 @@ main {
     min-width: 1200px;
     @supports (-webkit-touch-callout: none) {
         /* CSS specific to iOS devices */
-        min-width: 100vw;
-        width: 200vw;
-        height: 200vh;
+        // min-width: 100vw;
+        // width: 200vw;
+        // height: 200vh;
         // position: absolute;
-        transform: scale(0.5);
-        left: -50%;
-        top: -50%;
+        // transform: scale(0.1);
+        // left: -50%;
+        // top: -50%;
     }
     height: 980px;
     overflow: hidden;
