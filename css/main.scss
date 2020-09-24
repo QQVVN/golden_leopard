@@ -18,11 +18,12 @@ html {
     min-width: 1100px;
     height: 100%;
     overflow: hidden;
+    margin: 0 auto;
 }
 
 main {
     position: relative;
-    min-width: 950px;
+    min-width: 1000px;
     height: 980px;
     overflow: hidden;
     margin: 0 auto;
@@ -32,12 +33,12 @@ main {
         margin: 0 auto;
         .logo {
             position: absolute;
-            width: 800px;
-            height: 778px;
+            width: 805px;
+            height: 782px;
+            right: 360px;
+            top: 0px;
             background: url(../images/logo.png) no-repeat top center;
             background-size: 100%;
-            left: -199px;
-            top: 0px;
             animation: bounceIn;
             animation-duration: 1s;
         }
@@ -45,17 +46,17 @@ main {
             position: absolute;
             width: 417px;
             height: 253px;
+            left: 560px;
+            top: 36px;
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
-            left: 570px;
-            top: 29px;
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
-            left: 570px;
-            top: 304px;
+            left: 560px;
+            top: 307px;
             @include clearfix;
             .t {
                 float: left;
@@ -70,8 +71,8 @@ main {
                     cursor: pointer;
                     float: left;
                     width: 195px;
-                    height: 60px;
-                    line-height: 60px;
+                    height: 52px;
+                    line-height: 52px;
                     text-align: center;
                     border-radius: 45px;
                     border: 1px solid #dfcdb0;
@@ -116,14 +117,14 @@ main {
                 @include clearfix;
                 .l {
                     float: left;
-                    width: 255px;
-                    margin: 0 13px 0 0;
+                    width: 246px;
+                    margin: 0 25px 0 0;
                     .lt {
                         margin: 0 0 10px 0;
                     }
                     .lt,
                     .lb {
-                        width: 248px;
+                        width: 238px;
                         height: 33px;
                         border: 1px solid #feed98;
                         background-color: #000;
@@ -141,7 +142,7 @@ main {
                 .r {
                     cursor: pointer;
                     float: left;
-                    width: 138px;
+                    width: 135px;
                     height: 78px;
                     text-align: center;
                     line-height: 80px;
