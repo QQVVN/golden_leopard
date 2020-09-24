@@ -69,10 +69,10 @@ html {
 @supports (-webkit-touch-callout: none) {
   html {
     /* CSS specific to iOS devices */
-    position: absolute;
+    position: relative;
     transform: scale(0.8);
-    left: -50%;
-    top: -50%;
+    left: -5%;
+    top: -5%;
   }
 }
 
