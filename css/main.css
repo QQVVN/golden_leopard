@@ -69,7 +69,11 @@ html {
 @supports (-webkit-touch-callout: none) {
   html {
     /* CSS specific to iOS devices */
-    transform: scale(0.1);
+    width: 200vw;
+    height: 200vh;
+    transform: scale(0.5);
+    left: -50%;
+    top: -50%;
   }
 }
 
