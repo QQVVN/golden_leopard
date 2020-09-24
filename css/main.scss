@@ -32,20 +32,14 @@ main {
         margin: 0 auto;
         .logo {
             position: absolute;
-            margin: 0 0 0 -199px;
+            width: 100%;
+            height: 780px;
+            background: url(../images/logo.png) no-repeat top;
+            background-size: 800px;
+            margin: 0 0 0 -289px;
             animation: bounceIn;
             animation-duration: 1s;
         }
-        // .logo {
-        //     position: absolute;
-        //     width: 800px;
-        //     height: 778px;
-        //     background: url(../images/logo.png) no-repeat top center;
-        //     background-size: 100%;
-        //     margin: 0 0 0 -199px;
-        //     animation: bounceIn;
-        //     animation-duration: 1s;
-        // }
         .text {
             position: absolute;
             width: 417px;
@@ -54,7 +48,7 @@ main {
             background-size: 100%;
             // left: 560px;
             // top: 36px;
-            margin: 36px 0 0 572px;
+            margin: 36px 0 0 584px;
         }
         .input {
             position: absolute;
@@ -62,7 +56,7 @@ main {
             height: 180px;
             // left: 560px;
             // top: 310px;
-            margin: 310px 0 0 572px;
+            margin: 310px 0 0 584px;
             @include clearfix;
             .t {
                 float: left;
