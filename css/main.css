@@ -103,12 +103,24 @@ main article .text {
   background-size: 100%;
   margin: 36px 0 0 584px;
 }
+@supports (-webkit-touch-callout: none) {
+  main article .text {
+    /* CSS specific to iOS devices */
+    width: 90%;
+  }
+}
 main article .input {
   position: absolute;
   width: 408px;
   height: 180px;
   margin: 310px 0 0 584px;
   *zoom: 1;
+}
+@supports (-webkit-touch-callout: none) {
+  main article .input {
+    /* CSS specific to iOS devices */
+    width: 90%;
+  }
 }
 main article .input:after, main article .input:before {
   content: "";

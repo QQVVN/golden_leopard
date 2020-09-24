@@ -52,12 +52,22 @@ main {
             background: url(../images/text.png) no-repeat;
             background-size: 100%;
             margin: 36px 0 0 584px;
+            @supports (-webkit-touch-callout: none) {
+                /* CSS specific to iOS devices */
+                width: 90%;
+                
+            }
         }
         .input {
             position: absolute;
             width: 408px;
             height: 180px;
             margin: 310px 0 0 584px;
+            @supports (-webkit-touch-callout: none) {
+                /* CSS specific to iOS devices */
+                width: 90%;
+                
+            }
             @include clearfix;
             .t {
                 float: left;
